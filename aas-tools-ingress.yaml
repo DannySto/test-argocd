@@ -2,7 +2,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: aas-tools
-  namespace: aas-tools
+  namespace: aas-test
   annotations:
       kubernetes.io/ingress.class: nginx-red-internal
 spec:
