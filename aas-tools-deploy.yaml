@@ -7,7 +7,7 @@ spec:
   selector:
     matchLabels:
       app: aas-tools
-  replicas: 1 # tells the deployment to run 2 pods matching the template
+  replicas: 3 # tells the deployment to run 2 pods matching the template
   template:
     metadata:
       labels:
