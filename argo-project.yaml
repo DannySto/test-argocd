@@ -1,0 +1,7 @@
+project: default
+source:
+  repoURL: 'https://github.com/DannySto/test-argocd.git'
+  path: .
+  targetRevision: HEAD
+destination:
+  server: 'https://kubernetes.default.svc'
